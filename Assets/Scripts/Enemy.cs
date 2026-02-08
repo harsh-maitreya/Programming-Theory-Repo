@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float enemyHP {  get; set; }
+    public float enemyHP {  get; set; }//Encapsulation
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

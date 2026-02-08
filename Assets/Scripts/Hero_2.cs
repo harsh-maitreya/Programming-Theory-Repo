@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Hero_2 : Hero
+public class Hero_2 : Hero//child class, inheriting all methods from Hero class
 {
-    protected override void DealDamage()
+    protected override void DealDamage()//method overriding; inheritance
     {
         if (enemy != null)
             enemy.GetComponent<Enemy>().enemyHP -= 30;
@@ -18,7 +18,7 @@ public class Hero_2 : Hero
     }
     protected override void Start()
     {
-        base.Start();
+        base.Start();//inheritance
     }
     private void Update()
     {
