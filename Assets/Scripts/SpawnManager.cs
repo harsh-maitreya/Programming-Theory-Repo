@@ -12,7 +12,7 @@ public class SpawnManager : MonoBehaviour
 
     private void Start()
     {
-        Instantiate(Enemy, new Vector3(0,1,4), Enemy.transform.rotation);
+        Instantiate(Enemy, new Vector3(0,1,4), Enemy.transform.rotation);//fixed enemy spawning bug
     }
     // Update is called once per frame
     private void Update()
